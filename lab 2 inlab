@@ -1,2 +1,3 @@
 1 .  select Cust_name from Account,Depositor where Account.Balance>500 and Account.Acc_no=Depositor.Acc_no;
 3 .  select count(Acc_no) from Account;
+6 .select Cust_name,Loan_no from Loan,Account,Depositor where Loan.Br_Name=Account.Br_name and Account.Acc_no=Depositor.Acc_no and Loan.Br_Name='VRSEC';
