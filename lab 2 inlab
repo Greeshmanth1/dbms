@@ -1,0 +1,2 @@
+1 .  select Cust_name from Account,Depositor where Account.Balance>500 and Account.Acc_no=Depositor.Acc_no;
+3 .  select count(Acc_no) from Account;
